@@ -15,7 +15,7 @@ pipeline {
                 sh 'npm test'
             }
         }
-        stage('Scanner') {
+        /*stage('Scanner') {
             steps {
                 script {
                     def scannerHome = tool 'SonarQube Scanner';
@@ -24,6 +24,6 @@ pipeline {
                     }
                 }
             }
-        }
+        }*/
     }
 }
