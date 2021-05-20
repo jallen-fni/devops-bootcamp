@@ -1,0 +1,1 @@
+DROP TABLE bobby_drop_tables;
